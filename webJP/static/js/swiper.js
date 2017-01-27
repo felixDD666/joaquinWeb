@@ -17,13 +17,11 @@
       pagination: '.swiper-pagination',
       paginationClickable: true,
       paginationType: 'bullets',
-      nextButton: '.swiper-button-next',
-      prevButton: '.swiper-button-prev',
       effect: 'coverflow',
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        coverflow: {
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflow: {
             rotate: 50,
             stretch: 0,
             depth: 100,

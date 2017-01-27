@@ -51,7 +51,7 @@
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
+            <div id="barraNavegacion" class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
@@ -66,7 +66,6 @@
                         <a class="page-scroll" href="#team">El equipo</a>
                     </li>
                     <li>
-                        
                         <a class="page-scroll" href="#servicios">Servicios</a>
                     </li>
                     <li>
@@ -110,15 +109,13 @@
     <header id="top" class="header">
         <div id="textoCabecera" class="text-vertical-center">
             <img src="../../static/img/paez_logo.png">
-            <h1>Bienvenido a Clínica Podológica Paez</h1>
+            <h1 id="tituloWeb">Bienvenido a Clínica Podológica Paez</h1>
             <!--<h3>Sub Titulo</h3>-->
             <div id="fondoCabecera"></div>
             <br>
             <a href="#team" class="btn btn-dark btn-lg">Descúbrenos</a>
         </div>
     </header>
-
-   
 
     <!-- Team Section -->
     <section id="team" class="bg-light-gray">
@@ -132,38 +129,39 @@
             <div class="row text-center">
                 <div class="col-sm-6 text-center">
                     <div class="team-member">
-                        <a href="CVJ"><img src="../../static/img/portfolio-1.jpg" class="img-responsive img-circle text-center" alt=""></a>
-                        <h4>Joaquín Páez Moguer</h4>
+                        <a href="CVJ">
+                            <div class="container1">
+                              <div class="div-img" >
+                                <img class="img1" src="../../static/img/portfolio-2.jpg">
+                                <div class="text">Ver Curriculum</div>
+                              </div>
+                            </div>
+                        </a>
+                        <h3>Joaquín Páez Moguer</h3>
                         <p class="text-muted">Director Clínica Podológica Páez</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
                 <div class="col-sm-6 text-center">
                     <div class="team-member text-center">
-                        <a href="CVP"><img src="../../static/img/portfolio-2.jpg" class="img-responsive img-circle text-center" alt=""></a>
-                        <h4>Pilar Camarero Gómez</h4>
+                        <a href="CVP">
+                           <div class="container1">
+                              <div class="div-img" >
+                                <img class="img1" src="../../static/img/portfolio-3.jpg">
+                                <div class="text">Ver Curriculum</div>
+                              </div>
+                            </div>
+                        </a>
+                        <h3>Pilar Camarero Gómez</h3>
                         <p class="text-muted">Podóloga</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
                 
             </div>
         </div>
     </section>
+
+
+
 
     <!-- Slider main container <div id="slideFondo"></div>-->
     <div id="swiper" class="swiper-container">
@@ -189,10 +187,10 @@
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
         
-        <!-- If we need navigation buttons -->
+        <!-- If we need navigation buttons 
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-        
+        -->
         
         <!-- If we need scrollbar
         <div class="swiper-scrollbar"></div>
@@ -228,7 +226,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Nuestros Servicios</h2>
+                    <h2>Nuestros servicios</h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
@@ -296,10 +294,85 @@
         <!-- /.container -->
     </section>
 
+
+    <!--SERVICIOS movil-->
+    <section id="servicios2" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Nuestros servicios</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#" class="portfolio-box">
+                                    <img class="img-portfolio img-responsive" src="../../static/img/portfolio-1.jpg">
+                                    <div class="portfolio-box-caption">
+                                    </div>
+                                    <div id="textServMovil" class="portfolio-box-caption-content">
+                                        <div class="project-name">
+                                            <h1><b>Podología Deportiva</b></h1>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#" class="portfolio-box">
+                                    <img class="img-portfolio img-responsive" src="../../static/img/portfolio-2.jpg">
+                                    <div class="portfolio-box-caption"></div>
+                                    <div id="textServMovil" class="portfolio-box-caption-content">
+                                        <div class="project-name">
+                                            <h1><b>Cirugía Podológica</b></h1>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#" class="portfolio-box">
+                                    <img class="img-portfolio img-responsive" src="../../static/img/portfolio-3.jpg">
+                                    <div class="portfolio-box-caption"></div>
+                                    <div id="textServMovil" class="portfolio-box-caption-content">
+                                        <div class="project-name">
+                                            <h1><b>Terapia Laser</b></h1>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#" class="portfolio-box">
+                                    <img class="img-portfolio img-responsive" src="../../static/img/portfolio-4.jpg">
+                                    <div class="portfolio-box-caption"></div>
+                                    <div id="textServMovil" class="portfolio-box-caption-content">
+                                        <div class="project-name">
+                                            <h1><b>Plasma Rico en Plaquetas</b></h1>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
    
 
     <!-- Map -->
     <section id="map">
+        <div class="row text-center">
+            <h1>Dónde encontrarnos</h1>
+        </div>
+        
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.0114972290635!2d-4.420736583478484!3d36.722285109910715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7bfc1298c35%3A0x258f56cf28d6bc71!2sCl%C3%ADnica+Podologica+P%C3%A1ez!5e0!3m2!1ses!2ses!4v1485285595354" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
         <!-- Map 
@@ -317,7 +390,7 @@
 
 
 
-    <!-- Footer -->
+    <!-- Footer 
     <footer>
         <div class="container">
             <div class="row">
@@ -350,7 +423,7 @@
         </div>
         <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
-
+    -->
         
 
         <!-- Callout
@@ -453,7 +526,52 @@
             </div>
         </div>
     </aside>
+
+
+
+
+    <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
      -->
+
+
+         <!-- Team Section with round images
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">El equipo</h2>
+                    <h3 class="section-subheading text-muted">Profesionales a su disposición</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-6 text-center">
+                    <div class="team-member">
+                        <a href="CVJ">
+                            <img id="imgEquipo" src="../../static/img/portfolio-1.jpg" class="img-responsive img-circle text-center" alt="">
+                        </a>
+                        <h4>Joaquín Páez Moguer</h4>
+                        <p class="text-muted">Director Clínica Podológica Páez</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <div class="team-member text-center">
+                        <a href="CVP"><img id="imgEquipo" src="../../static/img/portfolio-2.jpg" class="img-responsive img-circle text-center" alt=""></a>
+                        <h4>Pilar Camarero Gómez</h4>
+                        <p class="text-muted">Podóloga</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    -->
 </body>
 
 </html>
