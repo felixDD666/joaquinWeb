@@ -108,6 +108,7 @@
             $("#barraNavegacion").css("width",screenWidth + "px");
             $("#tituloWeb").css("font-size","2.5em");
             $('#servicios').hide();
+            $("#servicios").attr("id","serviciosNo");
             $("#servicios2").attr("id","servicios");
             $("#fondoCabecera").css("width",screenWidth + "px")
             $("#fondoCabecera").css("margin-left", "-" + halfWidth + "px")
