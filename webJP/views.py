@@ -8,4 +8,16 @@ def CVJ(request):
     return render(request,'webJP/CV-joaquin.html',{})
 
 def CVP(request):
-    return render(request,'webJP/CV-pilar.html',{})
+	return render(request,'webJP/CV-pilar.html',{})
+
+def serv1(request):
+	return render(request,'webJP/podoDeportiva.html',{})
+
+def serv2(request):
+	return render(request,'webJP/ciruPodo.html',{})
+
+def serv3(request):
+	return render(request,'webJP/teraLaser.html',{})
+
+def serv4(request):
+	return render(request,'webJP/plasma.html',{})

@@ -517,3 +517,27 @@ footer {
   -o-transform: translate(0px, 0px) scale(2);
   -ms-transform: translate(0px, 0px) scale(2);
 }
+/*Twitter CSS*/
+#twitter-widget-0{
+  width: 100%;
+}
+/*Contacta*/
+#telfContacto{
+  background-color: black;
+  color: black;
+  background: url(../img/world-map-black.png) no-repeat center center fixed;
+
+}
+#iconsShape{
+  color: #ff6700;
+}
+#iconsShape:hover{
+  color: black;
+}
+
+#containerContact{
+  display: table;
+}
+#contact{
+  background: rgba(255,103,0,0.3);
+}
