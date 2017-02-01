@@ -254,174 +254,7 @@ footer {
 .page-scroll{
     color:white;
 }
-
-/*Cabecera*/
-#textoCabecera{
-    color: white;
-    z-index: 1;
-    position: relative;
-}
-#fondoCabecera{
-    top: 50%;
-    background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    z-index: -1;
-    left: 50%;
-    width: 1100px;
-    margin-left: -550px;
-    height: 450px;
-    margin-top: -225px;
-}
-/*team section CSS*/
-#team{
-  padding: 50px 0;
-}
-#imgEquipo:hover{
-  background-color: rgba(0,0,0,0.5);
-}
-
-
-
-
-
-/*CSS para CVS*/
-#CVheader{
-    margin-top: 70px;
-    padding-bottom: 40px;
-}
-
-.textFormAcademica{
-    font-size: 20px;
-    vertical-align: middle;
-}
-#uniPics{
-    max-height: 400px;
-    display:block;
-    margin:0 auto 0 auto;
-}
-
-/*CSS para los servicios*/
-.portfolio-box {
-  position: relative;
-  display: block;
-  max-width: 650px;
-  margin: 0 auto;
-}
-.portfolio-box .portfolio-box-caption {
-  color: white;
-  opacity: 0;
-  display: block;
-  background: #ff6700;
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  padding: 0 15px;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 14px;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 18px;
-}
-.portfolio-box:hover .portfolio-box-caption {
-  opacity: 0.8;
-}
-.portfolio-box:focus {
-  outline: none;
-}
-@media (min-width: 768px) {
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 16px;
-  }
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
-  }
-}
-
-/*Servicios Movil*/
-#textServMovil{
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  color:  #ff6700;
-}
-.project-name{
-  background-color: rgba(255,255,255,0.5)
-}
-
-/*SWIPER and SLIDES CSS*/
-.swiper-container{
-    width: 100%;
-    height: 50%;
-}   
-.swiper-pagination-bullet-active{
-  background: #ff6700!important;
-}
-#slideTexto{
-  color: black;
-  z-index: 1;
-  position: relative;
-}
-#slideFondo{
-  top: 50%;
-  background-color: rgba(0, 0, 0, 0.3);
-  position: absolute;
-  left: 50%;
-  width: 500px;
-  margin-left: -250px;
-  height: 200px;
-  margin-top: -100px;
-}
-#imgSlide1{
-  display: table;
-  color: #ff6700;
-  background: url(../img/visturi.JPG) no-repeat center center scroll;
-  -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-#imgSlide2{
-  display: table;
-  color: #ff6700;
-  background: url(../img/zancada.PNG) no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-#imgSlide3{
-  display: table;
-  color: #ff6700;
-  background: url(../img/huellaPlantar.jpg) no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
-
-/*Pruebas de hovers*/
+/*Imagenes del equipo (hover)*/
 .transition {
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
@@ -517,6 +350,229 @@ footer {
   -o-transform: translate(0px, 0px) scale(2);
   -ms-transform: translate(0px, 0px) scale(2);
 }
+
+/*CSS para los servicios*/
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 0 auto;
+}
+.portfolio-box .portfolio-box-caption {
+  color: white;
+  opacity: 0;
+  display: block;
+  background: #ff6700;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  padding: 0 15px;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-size: 18px;
+}
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 0.8;
+}
+.portfolio-box:focus {
+  outline: none;
+}
+@media (min-width: 768px) {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 22px;
+  }
+}
+#servContainer{
+  width:100%;
+}
+
+
+
+/*Servicios Movil*/
+#servicios2{
+  display: none;
+}
+#textServMovil{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color:  #ff6700;
+}
+.project-name{
+  background-color: rgba(255,255,255,0.5)
+}
+
+
+/*Cabecera*/
+#textoCabecera{
+    color: white;
+    z-index: 1;
+    position: relative;
+}
+#fondoCabecera{
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    width: 1100px;
+    margin-left: -550px;
+    height: 450px;
+    margin-top: -225px;
+}
+/*team section CSS*/
+#team{
+  padding: 50px 0;
+  background: rgba(255,103,0,0.2);
+}
+/*CSS para CVS*/
+#CVheader{
+    margin-top: 70px;
+    padding-bottom: 40px;
+}
+
+.textFormAcademica{
+    font-size: 20px;
+    vertical-align: middle;
+}
+#uniPics{
+    max-height: 400px;
+    display:block;
+    margin:0 auto 0 auto;
+}
+
+
+
+/*Equipamiento --> SWIPER and SLIDES CSS*/
+/**/
+#swiper{
+  padding: 50px 0;
+}
+.swiper-container{
+    width: 100%;
+    height: 65%;
+    margin: 20px auto;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}  
+.swiper-pagination-bullet-active{
+  background: #ff6700!important;
+}
+#slideTexto{
+  color: black;
+  z-index: 1;
+  position: relative;
+}
+#slideFondo{
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 50%;
+  width: 500px;
+  margin-left: -250px;
+  height: 200px;
+  margin-top: -100px;
+}
+#imgSlide1{
+  display: table;
+  color: #ff6700;
+  background: url(../img/visturi.JPG) no-repeat center center scroll;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#imgSlide2{
+  display: table;
+  color: #ff6700;
+  background: url(../img/zancada.PNG) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#imgSlide3{
+  display: table;
+  color: #ff6700;
+  background: url(../img/DeathtoStock_Wired5.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#imgSlide4{
+  display: table;
+  color: #ff6700;
+  background: url(../img/Deathtostock_creativecommunity2.JPG) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#imgSlide5{
+  display: table;
+  color: #ff6700;
+  background: url(../img/Death_to_stock_photography_Vibrant9.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#imgSlide6{
+  display: table;
+  color: #ff6700;
+  background: url(../img/Death_to_stock_photography_Vibrant7.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+Death_to_stock_photography_Vibrant (7 of 10).jpg
+
+
 /*Twitter CSS*/
 #twitter-widget-0{
   width: 100%;
@@ -539,6 +595,7 @@ footer {
   display: table;
 }
 #contact{
-  background: rgba(255,103,0,0.3);
   padding: 50px 0;
+  /*background: rgba(255,103,0,0.3);*/
 }
+
