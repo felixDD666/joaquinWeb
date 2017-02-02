@@ -69,10 +69,10 @@
                         <a class="page-scroll" href="#team">El equipo</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#servicios">Servicios</a>
+                        <a class="page-scroll" href="#swiper">Equipamiento</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#swiper">Equipamiento</a>
+                        <a class="page-scroll" href="#servicios">Servicios</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#map">Ubicación</a>
@@ -128,11 +128,11 @@
         <div id="telfContacto" class="row text-center">
             <div id="containerContact" class="col-md-4 col-md-offset-1">
                 <div id="contacContent">
-                    <h1>Contacto</h1>
+                    <h1 class="section-heading">Contacto</h1>
                     <br><br>
                     <h2>PARA SOLICITAR CITA NO DUDE EN LLAMARNOS AL 952 22 58 97</h2>
                     <h3>O si lo desea puede escribirnos un mensaje pulsando en el siguiente icono</h3>
-                    <a href="contacta">
+                    <a href="contactView">
                         <span id="iconContact" class="fa-stack fa-4x">
                             <i id="iconsShape" class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                         </span>
@@ -140,7 +140,7 @@
                 </div>
             </div>
             <div class="col-md-4 col-md-offset-1">
-                <h1>Notícias</h1>
+                <h1 class="section-heading">Notícias</h1>
                 <!---->
                 <a class="twitter-timeline" data-lang="es"  data-height="450" data-theme="light" href="https://twitter.com/DiarioSUR">Tweets by DiarioSUR</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                 
@@ -153,7 +153,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">El equipo</h2>
+                    <h1 class="section-heading">El equipo</h1>
                     <h3 class="section-subheading text-muted">Profesionales a su disposición</h3>
                 </div>
             </div>
@@ -170,8 +170,8 @@
                               </div>
                             </div>
                         </a>
-                        <h3>Joaquín Páez Moguer</h3>
-                        <p class="text-muted">Director Clínica Podológica Páez</p>
+                        <h3 class="nombreEquipo">Joaquín Páez Moguer</h3>
+                        <h4 class="text-muted">Director Clínica Podológica Páez</h4>
                     </div>
                 </div>
             </div>
@@ -187,14 +187,14 @@
                                   </div>
                                 </div>
                             </a>
-                            <h3>Pilar Camarero Gómez</h3>
-                            <p class="text-muted">Podóloga</p>
+                            <h3 class="nombreEquipo">Pilar Camarero Gómez</h3>
+                            <h4 class="text-muted">Podóloga</h4>
                         </div>
                     </div>
                     <!-- Juan Manuel -->
                     <div class="col-sm-4 text-center">
                         <div class="team-member text-center">
-                            <a href="CVP">
+                            <a href="CVJU">
                                <div class="container1">
                                   <div class="div-img" >
                                     <img class="img1" src="../../static/img/portfolio-1.jpg">
@@ -202,14 +202,14 @@
                                   </div>
                                 </div>
                             </a>
-                            <h3>Juan Manuel Escudero Prado</h3>
-                            <p class="text-muted">Podóloga</p>
+                            <h3 class="nombreEquipo">Juan Manuel Escudero Prado</h3>
+                            <h4 class="text-muted">Podólogo</h4>
                         </div>
                     </div>
                     <!-- Ramona -->
                     <div class="col-sm-4 text-center">
                         <div class="team-member text-center">
-                            <a href="CVP">
+                            <a href="CVR">
                                <div class="container1">
                                   <div class="div-img" >
                                     <img class="img1" src="../../static/img/portfolio-2.jpg">
@@ -217,8 +217,8 @@
                                   </div>
                                 </div>
                             </a>
-                            <h3>Ramona Gutierrez Gallego</h3>
-                            <p class="text-muted">Podóloga</p>
+                            <h3 class="nombreEquipo">Ramona Gutierrez Gallego</h3>
+                            <h4 class="text-muted">Podóloga</h4>
                         </div>
                     </div>
                 </div>
@@ -229,6 +229,59 @@
 
 
 
+
+    <!-- Slider main container <div id="slideFondo"></div>-->
+    <div id="swiper" class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="row text-center">
+            <h1 class="section-heading">Nuestro equipamiento</h1>
+            <br>
+        </div>
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div id="imgSlide1" class="swiper-slide">
+                <div class="text-vertical-center">
+                    <h1>OptoGait</h1>
+                </div>
+            </div>
+            <div id="imgSlide2" class="swiper-slide">
+                <div class="text-vertical-center">
+                    <h1>Laser</h1>
+                </div>
+            </div>
+            <div id="imgSlide3" class="swiper-slide">
+               <div class="text-vertical-center">
+                    <h1>Ecógrafo</h1>
+                </div>
+            </div>
+            <div id="imgSlide4" class="swiper-slide">
+               <div class="text-vertical-center">
+                    <h1>Otro</h1>
+                </div>
+            </div>
+            <div id="imgSlide5" class="swiper-slide">
+               <div class="text-vertical-center">
+                    <h1>Otro</h1>
+                </div>
+            </div>
+            <div id="imgSlide6" class="swiper-slide">
+               <div class="text-vertical-center">
+                    <h1>Otro</h1>
+                </div>
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- If we need navigation buttons 
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        -->
+        
+        <!-- If we need scrollbar
+        <div class="swiper-scrollbar"></div>
+         -->
+    </div>
 
 
     
@@ -261,7 +314,7 @@
         <div id="servContainer" class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h1>Nuestros servicios</h1>
+                    <h1 class="section-heading">Nuestros servicios</h1>
                     <hr class="small">
                     <!--FILA 1-->
                     <div class="row">
@@ -309,7 +362,7 @@
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3">
                             <div class="portfolio-item">
-                                <a href="serv3" class="portfolio-box">
+                                <a href="serv4" class="portfolio-box">
                                     <img class="img-portfolio img-responsive" src="../../static/img/DeathtoStock_Wired2.jpg">
                                     <div class="portfolio-box-caption">
                                         <div class="portfolio-box-caption-content">
@@ -326,7 +379,7 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-3 col-xs-3">
                             <div class="portfolio-item">
-                                <a href="serv1" class="portfolio-box">
+                                <a href="serv5" class="portfolio-box">
                                     <img class="img-portfolio img-responsive" src="../../static/img/DeathtoStock_Wired9.jpg">
                                     <div class="portfolio-box-caption">
                                         <div class="portfolio-box-caption-content">
@@ -340,7 +393,7 @@
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3">
                             <div class="portfolio-item">
-                                <a href="serv2" class="portfolio-box">
+                                <a href="serv6" class="portfolio-box">
                                     <img class="img-portfolio img-responsive" src="../../static/img/DeathtoStock_Wired8.jpg">
                                     <div class="portfolio-box-caption">
                                         <div class="portfolio-box-caption-content">
@@ -354,7 +407,7 @@
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3">
                             <div class="portfolio-item">
-                                <a href="serv3" class="portfolio-box">
+                                <a href="serv7" class="portfolio-box">
                                     <img class="img-portfolio img-responsive" src="../../static/img/DeathtoStock_Wired7.jpg">
                                     <div class="portfolio-box-caption">
                                         <div class="portfolio-box-caption-content">
@@ -368,7 +421,7 @@
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3">
                             <div class="portfolio-item">
-                                <a href="serv2" class="portfolio-box">
+                                <a href="serv8" class="portfolio-box">
                                     <img class="img-portfolio img-responsive" src="../../static/img/DeathtoStock_Wired3.jpg">
                                     <div class="portfolio-box-caption">
                                         <div class="portfolio-box-caption-content">
@@ -385,7 +438,7 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-3 col-xs-3">
                             <div class="portfolio-item">
-                                <a href="serv1" class="portfolio-box">
+                                <a href="serv9" class="portfolio-box">
                                     <img class="img-portfolio img-responsive" src="../../static/img/DeathtoStock_Wired6.jpg">
                                     <div class="portfolio-box-caption">
                                         <div class="portfolio-box-caption-content">
@@ -399,7 +452,7 @@
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3">
                             <div class="portfolio-item">
-                                <a href="serv2" class="portfolio-box">
+                                <a href="serv10" class="portfolio-box">
                                     <img class="img-portfolio img-responsive" src="../../static/img/DeathtoStock_Creative Community5.jpg">
                                     <div class="portfolio-box-caption">
                                         <div class="portfolio-box-caption-content">
@@ -413,7 +466,7 @@
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3">
                             <div class="portfolio-item">
-                                <a href="serv3" class="portfolio-box">
+                                <a href="serv11" class="portfolio-box">
                                     <img class="img-portfolio img-responsive" src="../../static/img/DeathtoStock_Wired5.jpg">
                                     <div class="portfolio-box-caption">
                                         <div class="portfolio-box-caption-content">
@@ -427,7 +480,7 @@
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3">
                             <div class="portfolio-item">
-                                <a href="serv1" class="portfolio-box">
+                                <a href="serv12" class="portfolio-box">
                                     <img class="img-portfolio img-responsive" src="../../static/img/DeathtoStock_Wired4.jpg">
                                     <div class="portfolio-box-caption">
                                         <div class="portfolio-box-caption-content">
@@ -449,12 +502,14 @@
     </section>
 
 
+
+
     <!--SERVICIOS movil-->
     <section id="servicios2" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h1>Nuestros servicios</h1>
+                    <h1 class= "section-heading">Nuestros servicios</h1>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-xs-6">
@@ -633,60 +688,8 @@
         </div>
     </section>
 
-       <!-- Slider main container <div id="slideFondo"></div>-->
-    <div id="swiper" class="swiper-container">
-        <!-- Additional required wrapper -->
-        <div class="row text-center">
-            <h1>Nuestro equipamiento</h1>
-            <br>
-        </div>
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div id="imgSlide1" class="swiper-slide">
-                <div class="text-vertical-center">
-                    <h1>OptoGait</h1>
-                </div>
-            </div>
-            <div id="imgSlide2" class="swiper-slide">
-                <div class="text-vertical-center">
-                    <h1>Laser</h1>
-                </div>
-            </div>
-            <div id="imgSlide3" class="swiper-slide">
-               <div class="text-vertical-center">
-                    <h1>Ecógrafo</h1>
-                </div>
-            </div>
-            <div id="imgSlide4" class="swiper-slide">
-               <div class="text-vertical-center">
-                    <h1>Otro</h1>
-                </div>
-            </div>
-            <div id="imgSlide5" class="swiper-slide">
-               <div class="text-vertical-center">
-                    <h1>Otro</h1>
-                </div>
-            </div>
-            <div id="imgSlide6" class="swiper-slide">
-               <div class="text-vertical-center">
-                    <h1>Otro</h1>
-                </div>
-            </div>
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-        
-        <!-- If we need navigation buttons 
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        -->
-        
-        <!-- If we need scrollbar
-        <div class="swiper-scrollbar"></div>
-         -->
-    </div>
-
     
+
 
         <!-- Map -->
     <section id="map">

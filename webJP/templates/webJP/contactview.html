@@ -49,7 +49,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="">Cirugía Podológica</a>
+                        <a class="page-scroll" href="">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -58,8 +58,45 @@
 
 
     <section>
-        
-      
+        <div id="containerContact" class="container">
+            <form method="post" name="sentMessage" id="contactForm">
+                {% csrf_token %}
+                <div class ="row text-center">
+                    <h1>Rellena este formulario y le contestaremos cuanto antes</h1>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <div class="form-group" >
+                            <h3 class="textContact">Nombre:</h3>{{form.nombre}} <!--Poner mas bonito esto vieo ya-->
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="form-group">
+                            <h3 class="textContact">Email:</h3> {{form.email}} <!--Poner mas bonito esto vieo ya-->
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="form-group">
+                            <h3 class="textContact">Teléfono:</h3> {{form.telefono}} <!--Poner mas bonito esto vieo ya-->
+                        </div>
+                    </div>
+                </div>
+                <br><br><br>
+                <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="form-group">
+                        <h3 class="textContact">Mensaje:</h3> {{form.mensaje}}
+                    </div>
+                </div>
+                </div>
+                <div class="row text-center">
+                    <div class="form-actions">
+                      <button id="contactSubmit" class="btn btn-primary" type="submit" disabled="disabled">Enviar</button>
+                    </div>
+                </div>
+            </form>
+      </div>
     </section>
 
 
