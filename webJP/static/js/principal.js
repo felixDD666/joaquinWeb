@@ -103,10 +103,19 @@
             }
         }
         if(isMobile.mobilecheck()){
+
             var screenWidth = screen.width;
             var halfWidth = screenWidth/2;
             $("#barraNavegacion").css("width",screenWidth + "px");
             $("#tituloWeb").css("font-size","2.5em");
+            $(".citasText").css("font-size","20px");
+            $("#team").hide();
+            $("#team").attr("id","teamNo");
+            $("#team2").attr("id","team");
+            $("#contact").hide();
+            $("#contact").attr("id","contactNo");
+            $("#contactMovil").attr("id","contact");
+            $(".citasText").css("padding","0 15px");
             $('#servicios').hide();
             $("#servicios").attr("id","serviciosNo");
             $("#servicios2").attr("id","servicios");
