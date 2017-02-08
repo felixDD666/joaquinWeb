@@ -1,4 +1,5 @@
 from django.conf.urls import url
+from django.views.generic import TemplateView
 
 from . import views
 
@@ -9,6 +10,10 @@ urlpatterns = [
     url(r'^CVP/$', views.CVP, name='CV-pilar'),
     url(r'^CVJU/$', views.CVJU, name='CV-juan'),
     url(r'^CVR/$', views.CVR, name='CV-ramona'),
+    url(r'^CVJ-mov/$', views.CVJmov, name='CV-joaquin-mov'),
+    url(r'^CVP-mov/$', views.CVPmov, name='CV-pilar-mov'),
+    url(r'^CVJU-mov/$', views.CVJUmov, name='CV-juan-mov'),
+    url(r'^CVR-mov/$', views.CVRmov, name='CV-ramona-mov'),
     url(r'^serv1/$', views.serv1, name='serv1'),
     url(r'^serv2/$', views.serv2, name='serv2'),
     url(r'^serv3/$', views.serv3, name='serv3'),
@@ -22,4 +27,5 @@ urlpatterns = [
     url(r'^serv11/$', views.serv11, name='serv11'),
     url(r'^serv12/$', views.serv12, name='serv12'),
     url(r'^contactView/$', views.contacto, name='contactView'),
+    url(r'^robots.txt$', TemplateView.as_view(template_name="robots.txt", content_type="text/plain"), name="robots_file"),
 ]

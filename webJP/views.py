@@ -17,6 +17,18 @@ def CVJU(request):
 def CVR(request):
 	return render(request,'webJP/CV-ramona.html',{})
 
+def CVJmov(request):
+    return render(request,'webJP/CV-joaquinMovil.html',{})
+
+def CVPmov(request):
+	return render(request,'webJP/CV-pilarMovil.html',{})
+
+def CVJUmov(request):
+	return render(request,'webJP/CV-juanMovil.html',{})
+
+def CVRmov(request):
+	return render(request,'webJP/CV-ramonaMovil.html',{})
+
 def serv1(request):
 	return render(request,'webJP/quiro.html',{})
 
