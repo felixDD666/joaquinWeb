@@ -1,5 +1,8 @@
-from django.conf.urls import url
+from django.conf.urls import url,include
 from django.views.generic import TemplateView
+from django.contrib.sitemaps.views import sitemap
+
+
 
 from . import views
 
@@ -27,5 +30,8 @@ urlpatterns = [
     url(r'^serv11/$', views.serv11, name='serv11'),
     url(r'^serv12/$', views.serv12, name='serv12'),
     url(r'^contactView/$', views.contacto, name='contactView'),
-    url(r'^robots.txt$', TemplateView.as_view(template_name="robots.txt", content_type="text/plain"), name="robots_file"),
+    url(r'^contactView/thanks/$',views.thanks,name='thanks'),
+    url(r'^robots.txt/$', TemplateView.as_view(template_name="robots.txt", content_type="text/plain"), name="robots_file"),
+    url(r'^sitemap\.xml/$', sitemap, {'sitemaps': sitemap}, name='django.contrib.sitemaps.views.sitemap'),
+    
 ]

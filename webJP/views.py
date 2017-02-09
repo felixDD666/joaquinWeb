@@ -1,5 +1,7 @@
 from django.shortcuts import render
+from django.http import HttpResponse, HttpResponseRedirect
 from .forms import ContactForm
+from django.core.mail import send_mail, BadHeaderError
 
 # Create your views here.
 def principal(request):
@@ -66,4 +68,18 @@ def serv12(request):
 	return render(request,'webJP/recursos.html',{})
 def contacto(request):
 	form = ContactForm(request.POST)
+	if form.is_valid():
+            human = True
+            nombre = form.cleaned_data['nombre']
+            email = form.cleaned_data['email']
+            telefono = form.cleaned_data['telefono']
+            mensaje = form.cleaned_data['mensaje']
+            try:
+                send_mail("Nuevo mensaje de " + nombre, "Email: " + email + "\n\nTelefono: " + telefono + "\n\nContenido: " + mensaje , 'mensajesclinica@gmail.com', ['clinicapodologicapaez@gmail.com'])
+            except BadHeaderError:
+                return HttpResponse('Invalid header found.')
+            return HttpResponseRedirect("thanks")
 	return render(request,'webJP/contactView.html',{'form': form})
+	
+def thanks(request):
+    return render(request,'webJP/thanks.html',{})

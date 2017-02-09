@@ -627,3 +627,29 @@ Death_to_stock_photography_Vibrant (7 of 10).jpg
   padding:50px 0;
 }
 
+#bodyContact{
+  background: url(../img/world-map-black.png) no-repeat center center; 
+}
+
+#id_nombre{
+  color: white;
+  background-color: rgba(255,103,0,0.4);
+  width: 170px;
+  height: 28px;
+}
+#id_email{
+  color: white;
+  background-color: rgba(255,103,0,0.4);
+  width: 170px;
+  height: 28px;
+}
+#id_telefono{
+  color: white;
+  background-color: rgba(255,103,0,0.4);
+  width: 170px;
+  height: 28px;
+}
+#id_mensaje{
+  color: white;
+  background-color: rgba(255,103,0,0.4);
+}

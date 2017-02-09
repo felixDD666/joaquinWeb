@@ -34,7 +34,7 @@
 
 </head>
 
-<body>
+<body id="bodyContact">
 
     
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -67,32 +67,38 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4 text-center">
-                        <div class="form-group" >
+                        <div id="contactInfo" class="form-group" >
                             <h3 class="textContact">Nombre:</h3>{{form.nombre}} <!--Poner mas bonito esto vieo ya-->
                         </div>
                     </div>
                     <div class="col-md-4 text-center">
-                        <div class="form-group">
-                            <h3 class="textContact">Email:</h3> {{form.email}} <!--Poner mas bonito esto vieo ya-->
+                        <div id="contactInfo" class="form-group">
+                            <h3  class="textContact">Email:</h3> {{form.email}} <!--Poner mas bonito esto vieo ya-->
                         </div>
                     </div>
                     <div class="col-md-4 text-center">
-                        <div class="form-group">
+                        <div id="contactInfo" class="form-group">
                             <h3 class="textContact">Teléfono:</h3> {{form.telefono}} <!--Poner mas bonito esto vieo ya-->
                         </div>
                     </div>
                 </div>
                 <br><br><br>
                 <div class="row">
-                <div class="col-md-12 text-center">
+                    <div class="col-md-12 text-center">
+                        <div class="form-group">
+                            <h3 class="textMessage">Mensaje:</h3> {{form.mensaje}}
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-center">
                     <div class="form-group">
-                        <h3 class="textContact">Mensaje:</h3> {{form.mensaje}}
+                         <h3>Escribe las letras mostradas en el captcha</h3>{{form.captcha}}<button class='js-captcha-refresh'>X</button>
                     </div>
                 </div>
                 </div>
                 <div class="row text-center">
                     <div class="form-actions">
-                      <button id="contactSubmit" class="btn btn-primary" type="submit" disabled="disabled">Enviar</button>
+                      <button id="contactSubmit" class="btn btn-primary" type="submit">Enviar</button>
+
                     </div>
                 </div>
             </form>
