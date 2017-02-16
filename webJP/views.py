@@ -83,3 +83,6 @@ def contacto(request):
 	
 def thanks(request):
     return render(request,'webJP/thanks.html',{})
+
+def politicaPrivacidad(request):
+    return render(request,'webJP/politica-privacidad.html',{})

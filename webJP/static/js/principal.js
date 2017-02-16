@@ -41,21 +41,35 @@
 
 
 
-   //Para colapsar el menu principal
+   //Para la barra de navegacion
     $(document).on("scroll", function(){
         var elem = $("#mainNav");
         var elem2 = $(".page-scroll");
         var pos = elem.offset();
         if(pos.top == 0){
             elem.css("background-color", "#ff6700");
+            elem2.mouseover(function() {
+              $(this).css("background-color","black");
+            });
+            elem2.mouseout(function() {
+              $(this).css("background-color","#ff6700");
+            });
             elem.css("opacity", "1");
-            elem2.css("color","white")
-            elem2.css("font-weight","normal")
+            elem2.css("color","white");
+            elem2.css("background-color", "#ff6700");
+            elem2.css("font-weight","normal");
         }else{
             elem.css("background-color", "white");
+            elem2.mouseover(function() {
+              $(this).css("background-color","black");
+            });
+            elem2.mouseout(function() {
+              $(this).css("background-color","rgba(255,255,255,0.7)");
+            });
             elem.css("opacity", "0.7");
             elem2.css("color","#ff6700")
             elem2.css("font-weight","bolder")
+            elem2.css("background-color","rgba(255,255,255,0.7)");
         }
     });
 

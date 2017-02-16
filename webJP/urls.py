@@ -29,6 +29,7 @@ urlpatterns = [
     url(r'^serv10/$', views.serv10, name='ser10'),
     url(r'^serv11/$', views.serv11, name='serv11'),
     url(r'^serv12/$', views.serv12, name='serv12'),
+    url(r'^politica-privacidad/$', views.politicaPrivacidad, name='politica-privacidad'),
     url(r'^contactView/$', views.contacto, name='contactView'),
     url(r'^contactView/thanks/$',views.thanks,name='thanks'),
     url(r'^robots.txt/$', TemplateView.as_view(template_name="robots.txt", content_type="text/plain"), name="robots_file"),

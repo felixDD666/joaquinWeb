@@ -29,6 +29,7 @@
 
     <!-- JavaScript -->
     <script src="../../static/js/principal.js"></script>
+    <script src="../../static/js/cookies.js"></script>
 
     <!-- Custom Fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -49,7 +50,13 @@
 </head>
 
 <body id ="bodyNormal">
-
+<div id="overbox3">
+    <div id="infobox3">
+        <p>Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios. Si continúas navegando consideramos que aceptas su uso.
+        <a href="politica-privacidad">Más información</a>
+        <a onclick="aceptar_cookies();" style="cursor:pointer;">X Cerrar</a></p>
+    </div>
+</div>
     <!-- PESTAÑAS -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
@@ -66,19 +73,19 @@
                     <li class="hidden">
                         <a href="#top"></a>
                     </li>
-                    <li>
+                    <li class="li-nav">
                         <a class="page-scroll" href="#contact">Contacta</a>
                     </li>
-                    <li>
+                    <li class="li-nav">
                         <a class="page-scroll" href="#servicios">Servicios</a>
                     </li>
-                    <li>
+                    <li class="li-nav">
                         <a class="page-scroll" href="#swiper">Equipamiento</a>
                     </li>
-                    <li>
+                    <li class="li-nav">
                         <a class="page-scroll" href="#team">El equipo</a>
                     </li>
-                    <li>
+                    <li class="li-nav">
                         <a class="page-scroll" href="#map">Ubicación</a>
                     </li>
                     
@@ -86,6 +93,9 @@
             </div>
         </div>
     </nav>
+
+
+
 
    
     <!-- Header -->
@@ -121,7 +131,7 @@
             <div class="col-md-4 col-md-offset-1">
                 <h1 class="section-heading">Noticias</h1>
                 <!---->
-                <a class="twitter-timeline" data-lang="es"  data-height="450" data-theme="light" href="https://twitter.com/DiarioSUR">Tweets by DiarioSUR</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <a class="twitter-timeline" data-lang="es"  data-height="450" data-theme="light" href="https://twitter.com/PodolgicaPaez">Tweets de Clínica Páez</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                 
             </div>
         </div>

@@ -66,91 +66,6 @@ hr.small {
     max-width: 100px;
 }
 
-/* Side Menu */
-
-#sidebar-wrapper {
-    z-index: 1000;
-    position: fixed;
-    right: 0;
-    width: 250px;
-    height: 100%;
-    transform: translateX(250px);
-    overflow-y: auto;
-    background: #222;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
-
-.sidebar-nav {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.sidebar-nav li {
-    text-indent: 20px;
-    line-height: 40px;
-}
-
-.sidebar-nav li a {
-    display: block;
-    text-decoration: none;
-    color: #999;
-}
-
-.sidebar-nav li a:hover {
-    text-decoration: none;
-    color: #fff;
-    background: rgba(255,255,255,0.2);
-}
-
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-    text-decoration: none;
-}
-
-.sidebar-nav > .sidebar-brand {
-    height: 55px;
-    font-size: 18px;
-    line-height: 55px;
-}
-
-.sidebar-nav > .sidebar-brand a {
-    color: #999;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
-    background: none;
-}
-
-#menu-toggle {
-    z-index: 1;
-    position: fixed;
-    top: 0;
-    right: 0;
-}
-
-#sidebar-wrapper.active {
-    right: 250px;
-    width: 250px;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
-
-.toggle {
-    margin: 5px 5px 0 0;
-}
-
 /* Header */
 
 .header {
@@ -597,6 +512,9 @@ footer {
   width: 100%;
 }
 /*Contacta*/
+.agradecimiento{
+  padding: 50px 0;
+}
 #contactMovil{
   display: none;
 }
@@ -631,24 +549,69 @@ footer {
 }
 
 #id_nombre{
-  color: white;
-  background-color: rgba(255,103,0,0.4);
+  color: black;
+  background-color: rgba(255,103,0,0.6);
   width: 170px;
   height: 28px;
 }
 #id_email{
-  color: white;
-  background-color: rgba(255,103,0,0.4);
+  color: black;
+  background-color: rgba(255,103,0,0.6);
   width: 170px;
   height: 28px;
 }
 #id_telefono{
-  color: white;
-  background-color: rgba(255,103,0,0.4);
+  color: black;
+  background-color: rgba(255,103,0,0.6);
   width: 170px;
   height: 28px;
 }
 #id_mensaje{
-  color: white;
-  background-color: rgba(255,103,0,0.4);
+  color: black;
+  background-color: rgba(255,103,0,0.6);
+}
+
+
+
+
+
+
+/*Cookies CSS*/
+#overbox3 {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999999;
+    display: block;
+}
+#infobox3 {
+    margin: auto;
+    position: relative;
+    top: 0px;
+    height: 58px;
+    width: 100%;
+    text-align:center;
+    background-color: #eeeeee;
+}
+#infobox3 p {
+    line-height:58px;
+    font-size:12px;
+    text-align:center;
+}
+#infobox3 p a {
+    margin-right:5px;
+    text-decoration: underline;
+}
+
+#textCookies p{
+  font-size: 18px; 
+}
+
+#textCookies li{
+  font-size: 18px; 
+}
+/*Boton volver*/
+#botonVolver{
+  margin: 15px 0;
 }
