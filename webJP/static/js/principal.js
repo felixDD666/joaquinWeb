@@ -96,9 +96,6 @@
             $("#team").hide();
             $("#team").attr("id","teamNo");
             $("#team2").attr("id","team");
-            $("#contact").hide();
-            $("#contact").attr("id","contactNo");
-            $("#contactMovil").attr("id","contact");
             $(".citasText").css("padding","0 15px");
             $('#servicios').hide();
             $("#servicios").attr("id","serviciosNo");
@@ -119,3 +116,7 @@ $('.js-captcha-refresh').click(function(){
     return false;
 });
  
+
+$(window).load(function() {
+  $("#container1").twentytwenty();
+});

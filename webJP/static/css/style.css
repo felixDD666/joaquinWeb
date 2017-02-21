@@ -67,13 +67,34 @@ hr.small {
 }
 
 /* Header */
+/*Cabecera*/
+#telefono{
+    font-weight: bolder;
+  
+}
+#textoCabecera{
+  color: black;
+  z-index: 1;
+  position: relative;
+}
+#fondoCabecera{
+  top: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  width: 1100px;
+  margin-left: -550px;
+  height: 450px;
+  margin-top: -225px;
+}
 
 .header {
     display: table;
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/interiorClini.JPG) no-repeat center center scroll;
+    background: url(../img/interiorClini.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -103,7 +124,7 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #ff6700;
-    background: url(../img/visturi.JPG) no-repeat center center scroll;
+    background: url(../img/visturi.JPG) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -364,23 +385,7 @@ footer {
 }
 
 
-/*Cabecera*/
-#textoCabecera{
-    color: white;
-    z-index: 1;
-    position: relative;
-}
-#fondoCabecera{
-    top: 50%;
-    background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    z-index: -1;
-    left: 50%;
-    width: 1100px;
-    margin-left: -550px;
-    height: 450px;
-    margin-top: -225px;
-}
+
 /*team section CSS*/
 #team{
   padding: 50px 0;
@@ -499,7 +504,7 @@ footer {
 #imgSlide6{
   display: table;
   color: #ff6700;
-  background: url(../img/Death_to_stock_photography_Vibrant7.jpg) no-repeat center center scroll;
+  background: url(../img/portfolio-3.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -518,13 +523,13 @@ footer {
 #contactMovil{
   display: none;
 }
-
+/*
 #telfContacto{
   background-color: black;
   color: black;
   background: url(../img/world-map-black.png) no-repeat center center fixed;
-
 }
+*/
 #iconsShape{
   color: #ff6700;
 }
@@ -537,11 +542,11 @@ footer {
 }
 #contact{
   padding: 50px 0;
+  background: url(../img/world-map-black.png) no-repeat center center fixed;
   /*background: rgba(255,103,0,0.3);*/
 }
 
 #containerContact{
-  padding:50px 0;
 }
 
 #bodyContact{
