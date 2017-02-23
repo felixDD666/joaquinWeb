@@ -100,8 +100,9 @@
             $('#servicios').hide();
             $("#servicios").attr("id","serviciosNo");
             $("#servicios2").attr("id","servicios");
-            $("#fondoCabecera").css("width",screenWidth + "px")
-            $("#fondoCabecera").css("margin-left", "-" + halfWidth + "px")
+            $("#fondoCabecera").css("width",screenWidth + "px");
+            $("#fondoCabecera").css("margin-left", "-" + halfWidth + "px");
+            $(".callout").hide();
         }  
     });        
 
