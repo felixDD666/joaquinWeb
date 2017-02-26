@@ -130,6 +130,9 @@ hr.small {
     background-size: cover;
     -o-background-size: cover;
 }
+.callText{
+  font-size: 4.5em;
+}
 
 /* Portfolio */
 
@@ -351,6 +354,7 @@ footer {
 /*heading de las secciones*/
 .section-heading{
   color: black;
+  font-size: 34px;
 }
 
 .nombreEquipo{

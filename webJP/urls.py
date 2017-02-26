@@ -1,8 +1,8 @@
 from django.conf.urls import url,include
 from django.views.generic import TemplateView
 from django.contrib.sitemaps.views import sitemap
-
-
+from django.http import HttpResponse
+from django.contrib.sitemaps import GenericSitemap
 
 from . import views
 
@@ -29,10 +29,11 @@ urlpatterns = [
     url(r'^serv10/$', views.serv10, name='ser10'),
     url(r'^serv11/$', views.serv11, name='serv11'),
     url(r'^serv12/$', views.serv12, name='serv12'),
+    url(r'^recursos/$', views.recursos, name='recursos'),
     url(r'^politica-privacidad/$', views.politicaPrivacidad, name='politica-privacidad'),
     url(r'^contactView/$', views.contacto, name='contactView'),
     url(r'^contactView/thanks/$',views.thanks,name='thanks'),
-    url(r'^robots.txt/$', TemplateView.as_view(template_name="robots.txt", content_type="text/plain"), name="robots_file"),
+    url(r'^robots\.txt/$', lambda r: HttpResponse("User-agent: *\nDisallow: /", content_type="text/plain")),
     url(r'^sitemap\.xml/$', sitemap, {'sitemaps': sitemap}, name='django.contrib.sitemaps.views.sitemap'),
     
 ]

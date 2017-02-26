@@ -65,6 +65,9 @@ def serv11(request):
 	return render(request,'webJP/opto.html',{})
 
 def serv12(request):
+	return render(request,'webJP/estudioPisada.html',{})
+
+def recursos(request):
 	return render(request,'webJP/recursos.html',{})
 def contacto(request):
 	form = ContactForm(request.POST)
