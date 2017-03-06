@@ -2,8 +2,8 @@
   $(document).ready(function () {
     //initialize swiper when document ready 
     setTimeout(function(){
-    	$('.swiper-pagination-bullet').css("opacity", "0.7");
-    	$('.swiper-pagination-bullet').css("background", "white");
+    	$('.paginationPrincipal').css("opacity", "0.7");
+    	$('.paginationPrincipal').css("background", "white");
 	  }, 1000); 
     var isMobile = {
             mobilecheck : function() {
@@ -11,7 +11,7 @@
             }
     }
     if(isMobile.mobilecheck()){
-      var swiper = new Swiper('.swiper-container', {
+      var swiper = new Swiper('#swiper', {
         direction: 'horizontal',
         autoplay: 2000,
         loop: true,
@@ -20,7 +20,7 @@
         paginationClickable: true
       });
     }else{
-      var mySwiper = new Swiper ('.swiper-container', {
+      var mySwiper = new Swiper ('#swiper', {
       // Optional parameters
       direction: 'horizontal',
       autoplay: true,
@@ -35,4 +35,29 @@
       freeMode: true
       })
     }
+
+    var swiper = new Swiper('.swiper-containerServ', {
+        pagination: '.swiper-pagination',
+        autoplay: true,
+        speed: 3500,
+        slidesPerView: 3,
+        centeredSlides: true,
+        paginationClickable: true,
+        spaceBetween: 30,
+        grabCursor: true,
+        loop:true,
+    });
+
+    var swiper = new Swiper('.swiper-containerPodoDep', {
+        pagination: '.swiper-pagination',
+        autoplay: true,
+        speed: 3500,
+        slidesPerView: 4,
+        centeredSlides: true,
+        paginationClickable: true,
+        spaceBetween: 0,
+        grabCursor: true,
+        loop:true,
+    });
+
   });

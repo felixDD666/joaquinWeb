@@ -33,7 +33,7 @@ urlpatterns = [
     url(r'^politica-privacidad/$', views.politicaPrivacidad, name='politica-privacidad'),
     url(r'^contactView/$', views.contacto, name='contactView'),
     url(r'^contactView/thanks/$',views.thanks,name='thanks'),
-    url(r'^robots\.txt/$', lambda r: HttpResponse("User-agent: *\nDisallow: /", content_type="text/plain")),
+    url(r'^robots\.txt/$', lambda r: HttpResponse("User-agent: *\nDisallow: ", content_type="text/plain")),
     url(r'^sitemap\.xml/$', sitemap, {'sitemaps': sitemap}, name='django.contrib.sitemaps.views.sitemap'),
     
 ]

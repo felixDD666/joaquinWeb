@@ -1,0 +1,239 @@
+    /*Quiropodologia*/
+    #swiper-slideQuiro1{
+        display: table;
+        background:url(../../static/img/quiropodologia/1Foto.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideQuiro2{
+        display: table;
+        background:url(../../static/img/quiropodologia/2Foto.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideQuiro3{
+        display: table;
+        background:url(../../static/img/quiropodologia/3Foto.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideQuiro4{
+        display: table;
+        background:url(../../static/img/quiropodologia/4Foto.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideQuiro5{
+        display: table;
+        display: table;
+        background:url(../../static/img/quiropodologia/5Foto.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideQuiro6{
+        display: table;
+        background:url(../../static/img/quiropodologia/6Foto.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideQuiro7{
+        display: table;
+        background:url(../../static/img/quiropodologia/7Foto.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideQuiro8{
+        display: table;
+        background:url(../../static/img/quiropodologia/8Foto.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideQuiro9{
+        display: table;
+        background:url(../../static/img/quiropodologia/9Foto.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideQuiro10{
+        display: table;
+        background:url(../../static/img/quiropodologia/10Foto.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiperQuiro{
+        width: 100%;
+        height: 300px;
+    }
+
+    .servSlides {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        width: 60%;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .servSlides:nth-child(2n) {
+        width: 40%;
+    }
+    .servSlides:nth-child(3n) {
+        width: 20%;
+    }
+    .servSlideText{
+        display: table-cell;
+        display: table-cell;
+        text-align: center;
+    
+    }
+    /*Podologia deportiva*/
+    #swiper-slideDepo1{
+        display: table;
+        background:url(../../static/img/podologiaDeportiva/podoDepo1.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideDepo2{
+        display: table;
+        background:url(../../static/img/podologiaDeportiva/Optimized-podoDepo2.jpg)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideDepo3{
+        display: table;
+        background:url(../../static/img/podologiaDeportiva/Optimized-podoDepo3.jpg)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideDepo4{
+        display: table;
+        background:url(../../static/img/podologiaDeportiva/Optimized-podoDepo4.jpg)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideDepo5{
+        display: table;
+        display: table;
+        background:url(../../static/img/podologiaDeportiva/Optimized-podoDepo5.jpg)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideDepo6{
+        display: table;
+        background:url(../../static/img/podologiaDeportiva/Optimized-podoDepo6.jpg)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideDepo7{
+        display: table;
+        background:url(../../static/img/podologiaDeportiva/podoDepo7.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideDepo8{
+        display: table;
+        background:url(../../static/img/podologiaDeportiva/podoDepo8.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideDepo9{
+        display: table;
+        background:url(../../static/img/podologiaDeportiva/podoDepo9.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideDepo10{
+        display: table;
+        background:url(../../static/img/podologiaDeportiva/podoDepo10.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideDepo11{
+        display: table;
+        display: table;
+        background:url(../../static/img/podologiaDeportiva/podoDepo11.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideDepo12{
+        display: table;
+        background:url(../../static/img/podologiaDeportiva/podoDepo12.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiper-slideDepo13{
+        display: table;
+        background:url(../../static/img/podologiaDeportiva/podoDepo13.png)no-repeat center center;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+    #swiperDepoCont{
+        padding: 20px 0;
+    }
+    .podoDepSlideText{
+        color: white;
+    }
+    #swiperDepo{
+        width: 100%;
+        height: 200px;
+    }
+    #swiperDepo2{
+        width: 100%;
+        height: 300px;
+    }

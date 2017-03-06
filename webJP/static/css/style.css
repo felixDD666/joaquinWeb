@@ -293,6 +293,9 @@ footer {
 #servicios{
   background: rgba(255,103,0,1);
 }
+.serviciosViews{
+  padding: 50px 0;
+}
 .portfolio-box {
   position: relative;
   display: block;
@@ -361,6 +364,17 @@ footer {
   color:black;
 }
 
+.titleSerView{
+  text-align: center;
+}
+.textSerView{
+  font-size: large;
+  color:black;
+}
+.imgQuiro{
+  max-width: 250px;
+}
+
 
 /*Servicios Movil*/
 #servicios2{
@@ -407,17 +421,14 @@ footer {
 /**/
 #swiper{
   padding: 50px 0;
+  width: 100%;
+  height: 65%;
+  margin: 20px auto;
 }
-.swiper-container{
-    width: 100%;
-    height: 65%;
-    margin: 20px auto;
-}
-.swiper-slide {
+.slidesPrincipal {
     text-align: center;
     font-size: 18px;
     background: #fff;
-    
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -471,7 +482,7 @@ footer {
 #imgSlide3{
   display: table;
   color: #ff6700;
-  background: url(../img/DeathtoStock_Wired5.jpg) no-repeat center center scroll;
+  background: url(../img/podologiaDeportiva/podoDepo13.png) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -505,7 +516,6 @@ footer {
   -o-background-size: cover;
 }
 
-
 /*Twitter CSS*/
 #twitter-widget-0{
   width: 100%;
@@ -524,6 +534,11 @@ footer {
   color: black;
 }
 
+#iconBack{
+  color: white;
+}
+
+
 #containerContact{
   display: table;
 }
@@ -534,6 +549,7 @@ footer {
 }
 
 #containerContact{
+  padding: 50px 0;
 }
 
 #bodyContact{
@@ -606,4 +622,14 @@ footer {
 /*Boton volver*/
 #botonVolver{
   margin: 15px 0;
+}
+
+/*INFO section*/
+#info{
+  padding: 50px 0;
+  background: rgba(255,103,0,1);
+}
+.infoText{
+  text-align: center;
+  color: black;
 }
