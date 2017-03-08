@@ -368,11 +368,24 @@ footer {
   text-align: center;
 }
 .textSerView{
-  font-size: large;
+  font-size: 1.4em;
   color:black;
 }
 .imgQuiro{
   max-width: 250px;
+}
+.ciruEnlace{
+  color: black;
+}
+.ciruEnlace:hover{
+  color: #ff6700;
+  
+}
+#enlaceCorreo{
+  background-color: #ff6700;
+}
+.enlaceCorreoText:hover{
+  color: white;
 }
 
 
@@ -417,7 +430,7 @@ footer {
 
 
 
-/*Equipamiento --> SWIPER and SLIDES CSS*/
+/*SWIPER and SLIDES CSS*/
 /**/
 #swiper{
   padding: 50px 0;

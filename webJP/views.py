@@ -67,6 +67,9 @@ def serv11(request):
 def serv12(request):
 	return render(request,'webJP/estudioPisada.html',{})
 
+def encarnadas(request):
+	return render(request,'webJP/encarnadas.html',{})
+
 def recursos(request):
 	return render(request,'webJP/recursos.html',{})
 def contacto(request):
