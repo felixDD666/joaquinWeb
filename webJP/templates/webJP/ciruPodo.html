@@ -49,7 +49,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a id="nombre" class="navbar-brand page-scroll" href="#page-top">Clínica Podológica Páez</a>
+                <a id="nombre" class="navbar-brand page-scroll" href="../">Clínica Podológica Páez</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -57,20 +57,18 @@
                         <a class="page-scroll" href="">Cirugía Podológica</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="../">Página principal</a>
+                        <a class="page-scroll" onclick="history.go(-1);">Atrás</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
-
     <section id="cirugia" class="serviciosViews">
         <div class="row">
             <h2 class="titleSerView">¿Cómo podemos prevenir y curar lesiones deportivas?</h2>
             <br>
             <div class="col-md-6">
-                <p class="textSerView">
+                <p id="podoDepText" class="textSerView">
                     Cuando no es posible mejorar un problema del pie mediante tratamientos conservadores, podemos recurrir a corregirlos mediante pequeñas intervenciones quirúrgicas en la mayoría de los casos con anestesia local, siendo intervenciones poco agresivas, que de una forma rápida y segura solucionan sus problemas de pies. 
                     <br><br>
                     En la <b>Clínica Podológica Páez</b>, utilizamos técnicas quirúrgicas novedosas en el tratamiento de las afecciones del pie, utilizando técnicas pioneras como la <b>Técnica LASER</b> para el tratamiento de Cirugía Ungueal, Papilomas y Quistes, que permiten una mejor recuperación y reducen al mínimo el dolor post-operatorio.<br><br> 
@@ -79,8 +77,8 @@
                     En Clínica Podológica Páez tenemos una dilatada experiencia desde el año 2000, aplicando las técnicas quirúrgicas más avanzadas y avaladas por la ciencia, además desde la Clínica Podológica Páez realizamos una labor de formación de otros profesionales podólogos mediante la impartición de cursos de Cirugía Podológica a nivel nacional y Docencia Universitaria.
                 </p>
             </div>
-            <div class="col-md-6">
-                <img src="../../static/img/cirugia/Optimized-Foto 1.png">
+            <div class="col-md-6 text-center">
+                <img id ="podoDepImg"src="../../static/img/cirugia/Optimized-Foto 1.png">
             </div>
             <div class="col-md-12">
                 <p class="textSerView"></p>
@@ -88,16 +86,44 @@
         </div>
         <div class="row">
             <h2 class="titleSerView">¿Qué técnicas utilizamos en Cirugía Podológica?</h2>
-            <p class="textSerView">Los principales problemas que podemos solucionar mediante la cirugía podológica son:</p>
+            <h3 class="text-center">Los principales problemas que podemos solucionar mediante la cirugía podológica son:</h3>
             <br>
             <ul class="textSerView">
-                <li><a class="ciruEnlace" href="encarnadas" target="_blank">Uñas encarnadas</a></li>
-                <li><a class="ciruEnlace" href="" target="_blank">Exóstosis</a></li>
-                <li><a class="ciruEnlace" href="" target="_blank">Callos y Helomas</a></li>
-                <li><a class="ciruEnlace" href="" target="_blank">Hallux Vagux / Juanetes</a></li>
-                <li><a class="ciruEnlace" href="" target="_blank">Dedos en garra / Dedos en martillo</a></li>
-                <li><a class="ciruEnlace" href="" target="_blank">Neuroma de Morton</a></li>
-                <li><a class="ciruEnlace" href="" target="_blank">Tumores / Quistes del pie</a></li>
+                <li><a class="ciruEnlace" href="encarnadas" target="_blank">Uñas encarnadas</a><a href="encarnadas" target="_blank">
+                <span id="iconContact" class="fa-stack fa-1x">
+                    <i id="iconsShape" class="fa fa-question-circle-o fa-stack-1x fa-inverse"></i>
+                </span>
+            </a></li>
+                <li><a class="ciruEnlace" href="" target="_blank">Exóstosis</a><a href="encarnadas" target="_blank">
+                <span id="iconContact" class="fa-stack fa-1x">
+                    <i id="iconsShape" class="fa fa-question-circle-o fa-stack-1x fa-inverse"></i>
+                </span>
+            </a></li>
+                <li><a class="ciruEnlace" href="" target="_blank">Callos y Helomas</a><a href="encarnadas" target="_blank">
+                <span id="iconContact" class="fa-stack fa-1x">
+                    <i id="iconsShape" class="fa fa-question-circle-o fa-stack-1x fa-inverse"></i>
+                </span>
+            </a></li>
+                <li><a class="ciruEnlace" href="" target="_blank">Hallux Vagux / Juanetes</a><a href="encarnadas" target="_blank">
+                <span id="iconContact" class="fa-stack fa-1x">
+                    <i id="iconsShape" class="fa fa-question-circle-o fa-stack-1x fa-inverse"></i>
+                </span>
+            </a></li>
+                <li><a class="ciruEnlace" href="" target="_blank">Dedos en garra / Dedos en martillo</a><a href="encarnadas" target="_blank">
+                <span id="iconContact" class="fa-stack fa-1x">
+                    <i id="iconsShape" class="fa fa-question-circle-o fa-stack-1x fa-inverse"></i>
+                </span>
+            </a></li>
+                <li><a class="ciruEnlace" href="" target="_blank">Neuroma de Morton</a><a href="encarnadas" target="_blank">
+                <span id="iconContact" class="fa-stack fa-1x">
+                    <i id="iconsShape" class="fa fa-question-circle-o fa-stack-1x fa-inverse"></i>
+                </span>
+            </a></li>
+                <li><a class="ciruEnlace" href="" target="_blank">Tumores / Quistes del pie</a><a href="encarnadas" target="_blank">
+                <span id="iconContact" class="fa-stack fa-1x">
+                    <i id="iconsShape" class="fa fa-question-circle-o fa-stack-1x fa-inverse"></i>
+                </span>
+            </a></li>
             </ul>
             <br>
             <div id="enlaceCorreo" class="row text-center">

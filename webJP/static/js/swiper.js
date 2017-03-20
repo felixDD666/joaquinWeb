@@ -55,7 +55,7 @@
         slidesPerView: 4,
         centeredSlides: true,
         paginationClickable: true,
-        spaceBetween: 0,
+        spaceBetween: 10,
         grabCursor: true,
         loop:true,
     });

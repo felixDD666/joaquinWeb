@@ -1097,6 +1097,7 @@ textarea {
   line-height: inherit;
 }
 a {
+  color: black;
   text-decoration: none;
 }
 figure {
@@ -1137,7 +1138,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid rgba(255,91,20,0.7);;
 }
 .sr-only {
   position: absolute;

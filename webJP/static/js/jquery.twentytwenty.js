@@ -105,5 +105,5 @@
 })(jQuery);
 
 $(window).load(function() {
-  $("#container1").twentytwenty();
+  $("#containerTwenty").twentytwenty();
 });
