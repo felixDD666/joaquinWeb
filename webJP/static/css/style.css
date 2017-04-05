@@ -576,7 +576,11 @@ footer {
 }
 
 #bodyContact{
-  background: url(../img/world-map-black.png) no-repeat center center; 
+  background: url(../img/paez_relieve.jpg) no-repeat center center fixed; 
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
 #id_nombre{
