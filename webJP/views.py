@@ -70,6 +70,12 @@ def serv12(request):
 def encarnadas(request):
 	return render(request,'webJP/encarnadas.html',{})
 
+def helomas(request):
+	return render(request,'webJP/helomas.html',{})
+
+def exotosis(request):
+	return render(request,'webJP/exotosis.html',{})
+
 def recursos(request):
 	return render(request,'webJP/recursos.html',{})
 def contacto(request):

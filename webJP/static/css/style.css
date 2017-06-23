@@ -294,6 +294,16 @@ footer {
 }
 
 /*CSS para los servicios*/
+#img-plasma{
+  -moz-transform: scale(1.6);
+  -webkit-transform: scale(1.6);
+  transform: scale(1.6);
+}
+
+#img-plasma-overflow{
+  overflow: hidden;
+}
+
 #servicios{
   background: rgba(255,103,0,1);
 }
@@ -491,7 +501,7 @@ footer {
 #imgSlide2{
   display: table;
   color: #ff6700;
-  background: url(../img/zancada.PNG) no-repeat center center scroll;
+  background: url(../img/serviciosPrincipal/teraLaser.png) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -518,12 +528,13 @@ footer {
 #imgSlide5{
   display: table;
   color: #ff6700;
-  background: url(../img/Death_to_stock_photography_Vibrant9.jpg) no-repeat center center scroll;
+  background: url(../img/podologiaDeportiva/podoDepo7.png) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+/*
 #imgSlide6{
   display: table;
   color: #ff6700;
@@ -533,6 +544,7 @@ footer {
   background-size: cover;
   -o-background-size: cover;
 }
+*/
 
 /*Twitter CSS*/
 #twitter-widget-0{
@@ -585,25 +597,25 @@ footer {
 
 #id_nombre{
   color: black;
-  background-color: rgba(255,103,0,0.6);
+  background-color: rgba(255,255,255,0.6);
   width: 170px;
   height: 28px;
 }
 #id_email{
   color: black;
-  background-color: rgba(255,103,0,0.6);
+  background-color: rgba(255,255,255,0.6);
   width: 170px;
   height: 28px;
 }
 #id_telefono{
   color: black;
-  background-color: rgba(255,103,0,0.6);
+  background-color: rgba(255,255,255,0.6);
   width: 170px;
   height: 28px;
 }
 #id_mensaje{
   color: black;
-  background-color: rgba(255,103,0,0.6);
+  background-color: rgba(255,255,255,0.6);
 }
 
 
@@ -649,6 +661,29 @@ footer {
 /*Boton volver*/
 #botonVolver{
   margin: 15px 0;
+  background-color: black;
+  color: white;
+}
+
+#botonVolver:hover{
+  background-color: white;
+  color: black;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+#contactSubmit{
+  background-color: black;
+  color: white;
+}
+
+#contactSubmit:hover{
+  background-color: white;
+  color: black;
+  border: solid;
+  border-width: 1px;
+  border-color: black;
 }
 
 /*INFO section*/
