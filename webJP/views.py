@@ -76,6 +76,13 @@ def helomas(request):
 def exotosis(request):
 	return render(request,'webJP/exotosis.html',{})
 
+def hallux(request):
+	return render(request,'webJP/hallux.html',{})
+
+def garra(request):
+	return render(request,'webJP/dedosGarra.html',{})
+	
+
 def recursos(request):
 	return render(request,'webJP/recursos.html',{})
 def contacto(request):

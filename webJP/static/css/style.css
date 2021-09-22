@@ -19,6 +19,10 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+#follow-us{
+  background-color: #ff6700;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -166,7 +170,7 @@ hr.small {
 /* Map */
 
 #map{
-  padding: 50px 0;
+  padding: 15px 0;
 
 }
 /* Footer */
@@ -176,6 +180,10 @@ footer {
 }
 #footerLinks:hover{
   color: #ff6700;
+}
+
+#footerLinks2:hover{
+  color: white;
 }
 
 #to-top {
@@ -699,4 +707,12 @@ footer {
 #mapa{
   width: 100%;
   height: 300px;
+}
+
+.estPisadaList{
+  margin: 0.5em;
+}
+
+.margin30px{
+  margin-top: 30px;
 }

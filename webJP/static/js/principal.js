@@ -113,6 +113,12 @@
         }
         var podoDepTextH = $("#podoDepText").height();
         $("#podoDepImg").css("height",podoDepTextH + "px"); 
+
+        var podoDepTextH2 = $("#podoDepText2").height();
+        $("#podoDepImg2").css("height",podoDepTextH2 + "px"); 
+
+        var podoDepTextH3 = $("#podoDepText3").height();
+        $("#podoDepImg3").css("height",podoDepTextH3 + "px"); 
     });        
 
 /*Captcha JS*/
