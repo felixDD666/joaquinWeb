@@ -56,7 +56,7 @@
 <div id="overbox3">
     <div id="infobox3">
         <p>Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios. Si continúas navegando consideramos que aceptas su uso.
-        <a href="politica-privacidad">Más información</a>
+        <a href="cookies">Más información</a>
         <a onclick="aceptar_cookies();" style="cursor:pointer;">Aceptar</a></p>
     </div>
 </div>
@@ -82,42 +82,68 @@
                     <li class="li-nav">
                         <a class="page-scroll" href="#servicios">Servicios</a>
                     </li>
-                    <li class="li-nav">
+                    <!-- <li class="li-nav">
                         <a class="page-scroll" href="#swiper">Equipamiento</a>
-                    </li>
+                    </li> -->
                     <li class="li-nav">
                         <a class="page-scroll" href="#team">El equipo</a>
                     </li>
-                    <li class="li-nav">
+                    <!-- <li class="li-nav">
                         <a class="page-scroll" href="recursos">Recursos para pacientes</a>
-                    </li>
-                    
+                    </li> -->
                 </ul>
             </div>
         </div>
     </nav>
+
+    <!-- <header id="top" class="header">
+        <div id="textoCabecera" class="text-vertical-center">
+            <img src="../../static/img/paez_logo.png" alt="Paez Logo" id="logoPrincipal">
+            <h1 id="tituloWeb">Bienvenido a Clínica Podológica Páez</h1>
+            <div class="containerContact">
+                <div ><a class="contactRight" href="https://www.facebook.com/ClinicaPodologiaPaez/about"><span id="iconContact" class="fa-stack fa-4x"><i id="iconsShape" class="fa fa-facebook fa-stack-1x"></i></span></a></div>
+                <div><a href="https://www.instagram.com/clinicapodologicapaez/?hl=es"><span id="iconContact" class="fa-stack fa-4x"><i id="iconsShape" class="fa fa-instagram fa-stack-1x"></i></span></a></div>
+                <div><a class="contactLeft"href="https://twitter.com/PodologiaPaez"><span id="iconContact" class="fa-stack fa-4x"><i id="iconsShape" class="fa fa-twitter fa-stack-1x"></i></span></a></div>
+                <br>
+            </div>
+            <div class="containerContact">
+                <div><a class="contactRight" href="tel:647-742-331"><span id="iconContact" class="fa-stack fa-4x"><i id="iconsShape" class="fa fa-phone fa-stack-1x fa-inverse"></i></span></a></div>
+                <div id="telefonoDiv"><h2 id="telefono">637 90 30 10</h2></div>
+                <div><a class="contactLeft" href="contactView"><span id="iconContact" class="fa-stack fa-4x"><i id="iconsShape" class="fa fa-envelope fa-stack-1x fa-inverse"></i></span></a></div>
+                <br>
+            </div>
+            <div id="fondoCabecera"></div>
+        </div>
+        <video autoplay muted loop src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
+    </header> -->
+    
    
     <!-- Header -->
     <header id="top" class="header">
         <div id="textoCabecera" class="text-vertical-center">
-            <img src="../../static/img/paez_logo.png" alt="Paez Logo">
+            <img src="../../static/img/paez_logo.png" alt="Paez Logo" id="logoPrincipal">
             <h1 id="tituloWeb">Bienvenido a Clínica Podológica Páez</h1>
-            <h2 id="telefono">Tfno.: 637 90 30 10</h2>
+            <div class="containerContact">
+                <div ><a class="contactRight" href="https://www.facebook.com/ClinicaPodologiaPaez/about"><span id="iconContact" class="fa-stack fa-4x"><i id="iconsShape2" class="fa fa-facebook fa-stack-1x"></i></span></a></div>
+                <div><a href="https://www.instagram.com/clinicapodologicapaez/?hl=es"><span id="iconContact" class="fa-stack fa-4x"><i id="iconsShape" class="fa fa-instagram fa-stack-1x"></i></span></a></div>
+                <div><a class="contactLeft"href="https://twitter.com/PodologiaPaez"><span id="iconContact" class="fa-stack fa-4x"><i id="iconsShape2" class="fa fa-twitter fa-stack-1x"></i></span></a></div>
+                <br>
+            </div>
+            <div class="containerContact">
+                <div><a class="contactRight" href="tel:647-742-331"><span id="iconContact" class="fa-stack fa-4x"><i id="iconsShape" class="fa fa-phone fa-stack-1x fa-inverse"></i></span></a></div>
+                <div id="telefonoDiv"><h2 id="telefono">637 90 30 10</h2></div>
+                <div><a class="contactLeft" href="contactView"><span id="iconContact" class="fa-stack fa-4x"><i id="iconsShape" class="fa fa-envelope fa-stack-1x fa-inverse"></i></span></a></div>
+                <br>
+            </div>
             <div id="fondoCabecera"></div>
-            <br>
-            <a href="#info" class="btn btn-dark btn-lg">Descúbranos</a>
-            <a href="contactView">
-                <span id="iconContact" class="fa-stack fa-4x">
-                    <i id="iconsShape" class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                </span>
-            </a>
-            
         </div>
     </header>
+
+    <!-- Info -->
     <section id="info">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <p class="infoText">
                         <b>Clínica Podológica Páez</b> somos un equipo de Profesionales Podológicos, bajo la dirección del <b>Dr. Joaquín Páez Moguer</b>, trabajando en Málaga desde el año 2000, con experiencia en el tratamiento integral de las enfermedades y trastornos del pie. Nuestra filosofía de trabajo se basa en dos pilares fundamentales, el <b>rigor científico y la calidad humana</b>.
                         <br><br>
@@ -130,28 +156,11 @@
                         Realizamos tratamientos individualizados para la corrección de las afecciones y enfermedades de los pies, mediante el uso de nuevas terapias, con evidencia científica, como son <b>soportes plantares personalizados, Posturología, Infiltraciones, Mesoterapia, Terapia Neural, Plasma Rico en Plaquetas, Terapia LÁSER y Cirugía Podológica</b>.
                     </p>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <a id="twitter" class="twitter-timeline" data-lang="es"  data-height="380" data-theme="light" href="https://twitter.com/PodologiaPaez">Tweets de Clínica Páez</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <a id="twitter" class="twitter-timeline" data-lang="es"  data-height="500" data-theme="light" href="https://twitter.com/PodologiaPaez">Tweets de Clínica Páez</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
-                <div id="follow-us" class="col-md-12 text-center">
-                    <h2 class="infoText">Siguenos en nuestras redes sociales</h2>
-                    <ul class="list-inline">
-                        <li>
-                            <a id="footerLinks2" href="https://www.facebook.com/ClinicaPodologiaPaez/about"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a id="footerLinks2" href="https://www.instagram.com/clinicapodologicapaez/?hl=es"><i class="fa fa-instagram fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a id="footerLinks2" href="https://twitter.com/PodologiaPaez"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <!--
-                        <li>
-                            <a id="footerLinks2" href="#"><i class="fa fa-youtube fa-fw fa-3x"></i></a>
-                        </li>
-                        -->
-                    </ul>
-                   </div>
+                
+                <!-- Map -->
                 <div id="map" class="col-md-12 text-center">
                     <h4 class="infoText">Puede encontrarnos en <b>Avenida Moliere 18, Bajo 2</b></h4>
                     <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.0114972290635!2d-4.420736583478484!3d36.722285109910715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f7bfc1298c35%3A0x258f56cf28d6bc71!2sCl%C3%ADnica+Podologica+P%C3%A1ez!5e0!3m2!1ses!2ses!4v1485285595354"allowfullscreen></iframe>
@@ -263,8 +272,8 @@
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3">
                             <div class="portfolio-item">
-                                <a href="serv1" class="portfolio-box">
-                                    <img class="img-portfolio img-responsive" src="../../static/img/serviciosPrincipal/visturi.JPG" alt="Quiropodologia">
+                                <a href="serv10" class="portfolio-box">
+                                    <img class="img-portfolio img-responsive" src="../../static/img/serviciosPrincipal/visturi.JPG" alt="Neuromodulación">
                                     <div class="portfolio-box-caption">
                                         <div class="portfolio-box-caption-content">
                                             <div class="project-name">
@@ -277,8 +286,8 @@
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3">
                             <div class="portfolio-item">
-                                <a href="serv1" class="portfolio-box">
-                                    <img class="img-portfolio img-responsive" src="../../static/img/serviciosPrincipal/visturi.JPG" alt="Quiropodologia">
+                                <a href="serv10" class="portfolio-box">
+                                    <img class="img-portfolio img-responsive" src="../../static/img/serviciosPrincipal/visturi.JPG" alt="Intervencionismo">
                                     <div class="portfolio-box-caption">
                                         <div class="portfolio-box-caption-content">
                                             <div class="project-name">
@@ -310,7 +319,7 @@
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3">
                             <div class="portfolio-item">
-                                <a href="serv6" class="portfolio-box">
+                                <a href="serv10" class="portfolio-box">
                                     <img class="img-portfolio img-responsive" src="../../static/img/serviciosPrincipal/podoInf.jpg" alt="Podologia Infantil">
                                     <div class="portfolio-box-caption">
                                         <div class="portfolio-box-caption-content">
@@ -338,7 +347,7 @@
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-3">
                             <div class="portfolio-item">
-                                <a id="img-plasma-overflow" href="serv8" class="portfolio-box">
+                                <a id="img-plasma-overflow" href="serv10" class="portfolio-box">
                                     <img id = "img-plasma" class="img-portfolio img-responsive" src="../../static/img/serviciosPrincipal/plasma.png" alt="Plasma rico en plaquetas">
                                     <div class="portfolio-box-caption">
                                         <div class="portfolio-box-caption-content">
@@ -496,21 +505,6 @@
                         </div>
                         <div class="col-md-6 col-sm-6 col-xs-6">
                             <div class="portfolio-item">
-                                <a href="serv9" class="portfolio-box">
-                                    <img class="img-portfolio img-responsive" src="../../static/img/serviciosPrincipal/eco.png" alt="Ecografia">
-                                    <div class="portfolio-box-caption"></div>
-                                    <div id="textServMovil" class="portfolio-box-caption-content">
-                                        <div class="project-name">
-                                            <b>Ecografía</b>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <div class="portfolio-item">
                                 <a href="serv10" class="portfolio-box">
                                     <img class="img-portfolio img-responsive" src="../../static/img/serviciosPrincipal/postu.png" alt="Posturologia">
                                     <div class="portfolio-box-caption">
@@ -523,9 +517,24 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6">
+                        <!-- <div class="col-md-6 col-sm-6 col-xs-6">
                             <div class="portfolio-item">
-                                <a href="serv11" class="portfolio-box">
+                                <a href="serv10" class="portfolio-box">
+                                    <img class="img-portfolio img-responsive" src="../../static/img/serviciosPrincipal/eco.png" alt="Ecografia">
+                                    <div class="portfolio-box-caption"></div>
+                                    <div id="textServMovil" class="portfolio-box-caption-content">
+                                        <div class="project-name">
+                                            <b>Ecografía</b>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="row">
+                        <!-- <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="portfolio-item">
+                                <a href="serv10" class="portfolio-box">
                                     <img class="img-portfolio img-responsive" src="../../static/img/serviciosPrincipal/opto2.jpg" alt="Optogait">
                                     <div class="portfolio-box-caption"></div>
                                     <div id="textServMovil" class="portfolio-box-caption-content">
@@ -535,7 +544,7 @@
                                     </div>
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-xs-6">
@@ -552,9 +561,9 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6">
+                        <!-- <div class="col-md-6 col-sm-6 col-xs-6">
                             <div class="portfolio-item">
-                                <a href="serv11" class="portfolio-box">
+                                <a href="serv10" class="portfolio-box">
                                     <img class="img-portfolio img-responsive" src="../../static/img/serviciosPrincipal/opto2.jpg" alt="Optogait">
                                     <div class="portfolio-box-caption"></div>
                                     <div id="textServMovil" class="portfolio-box-caption-content">
@@ -564,7 +573,7 @@
                                     </div>
                                 </a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -575,14 +584,14 @@
 
 
     <!-- Slider main container-->
-    <div id="swiper" class="swiper-container swiperPrincipal">
+    <!-- <div id="swiper" class="swiper-container swiperPrincipal">
         <div class="row text-center">
-            <h2 class="section-heading">Nuestro equipamiento</h2>
+            <h2 class="section-heading-black">Nuestro equipamiento</h2>
             <br>
         </div>
-        <div class="swiper-wrapper">
+        <div class="swiper-wrapper"> -->
             <!-- Slides -->
-            <div id="imgSlide1" class="swiper-slide slidesPrincipal">
+            <!-- <div id="imgSlide1" class="swiper-slide slidesPrincipal">
                 <div class="text-vertical-center">
                     <h2 class="callText">OptoGait</h2>
                 </div>
@@ -611,7 +620,7 @@
 
         <div class="swiper-pagination"></div>
        
-    </div>
+    </div> -->
 
 
     <!-- Team Section -->
@@ -661,7 +670,7 @@
                     <!-- Juan Manuel -->
                     <div class="col-sm-4 text-center">
                         <div class="team-member text-center">
-                            <a href="CVJU">
+                            <a href="">
                                <div class="container1">
                                   <div class="div-img" >
                                     <img class="img1" src="../../static/img/Optimized-Juan Manuel Escudero Prados.jpg" alt="Juan Manuel Escudero">
@@ -740,7 +749,7 @@
                 <!-- Juan Manuel -->
                 <div class="col-md-6 col-sm-6 col-xs-6 text-center">
                     <div class="team-member text-center">
-                        <a href="CVJU-mov">
+                        <a href="">
                            <div class="container1">
                               <div class="div-img" >
                                 <img class="img1" src="../../static/img/Optimized-Juan Manuel Escudero Prados.jpg" alt="Juan Manuel Escudero">
@@ -790,7 +799,7 @@
                     <br>Málaga
                     </p>
                     <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i>637 90 30 10</li>
+                        <li><a class="phone-hover" href="tel:647-742-331"><i class="fa fa-phone fa-fw"></i>637 90 30 10</li></a>
                         <li>Emails:
                             <a href="contactView">
                                 <span id="iconContact" class="fa-stack fa-2x">
@@ -799,7 +808,6 @@
                             </a>
                         </li>
                     </ul>
-                    <br>
                     <ul class="list-inline">
                         <li>
                             <a id="footerLinks" href="https://www.facebook.com/ClinicaPodologiaPaez/about"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
@@ -816,6 +824,8 @@
                         </li>
                         -->
                     </ul>
+                    <br>
+                    <a id="politicaPriv" href="politica-privacidad"><p>Aviso legal y politica de privacidad</p></a>
                     <hr class="long">
                     
                 </div>

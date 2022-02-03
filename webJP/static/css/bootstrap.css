@@ -1364,7 +1364,7 @@ a.text-danger:focus {
 }
 .bg-primary {
   color: #fff;
-  background-color: #ff6700;
+  background-color: #464952;
 }
 a.bg-primary:hover,
 a.bg-primary:focus {
@@ -4485,8 +4485,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #ff6700;
+  background-color: #464952;
+  border-color: #464952;
 }
 .navbar-default .navbar-brand {
   color: white;
